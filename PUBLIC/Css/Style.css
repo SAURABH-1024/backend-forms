@@ -1,0 +1,60 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Mono', sans-serif;
+  }
+  input{
+    display: block;
+    padding: 15px 200px 20px 200px;
+    margin: 10px 150px 20px 250px;
+    font-size: 20px;
+    font-weight: 800;
+    border: 1px solid rgb(48, 46, 46);
+    outline: none;
+  }
+  
+  
+  ::placeholder{
+    color: rgb(0, 0, 0);
+    text-align: left;
+  }
+  
+  .MainForm{
+    display: flex;
+    justify-content:center;
+  }
+  
+  .firstname{
+  margin-top: 100px;
+  }
+  
+  .submit-btn{
+    padding: 10px 80px 15px 80px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    margin-left: 225px;
+    margin-top: 20px;
+    background-color: rgb(69, 99, 231);
+  }
+  
+  .navbar{
+    float: right;
+    margin-bottom: 30px;
+  }
+  
+  .login-btn{
+    text-decoration: none;
+    color: black;
+    font-size:30px;
+    margin-right: 15px;
+  }
+  
+  .signup-btn{
+     text-decoration: none;
+    color: black;
+    font-size:30px;
+  }
